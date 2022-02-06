@@ -4,4 +4,4 @@
 
 ## License
 
-[MIT](./LICENSE) License © 2021 [James Tsang](https://github.com/jtsang4)
+[MIT](./LICENSE) License © 2022 [James Tsang](https://github.com/jtsang4)
