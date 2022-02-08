@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@antfu/ni': ^0.12.0
-      '@jtsang/eslint-config': ^0.17.0
+      '@jtsang/eslint-config': ^0.19.0
       '@types/node': ^17.0.7
       bumpp: ^7.1.1
       eslint: ^8.6.0
@@ -16,7 +16,7 @@ importers:
       vitest: ^0.0.129
     devDependencies:
       '@antfu/ni': 0.12.0
-      '@jtsang/eslint-config': 0.17.0_eslint@8.6.0+typescript@4.5.4
+      '@jtsang/eslint-config': 0.19.0_eslint@8.6.0+typescript@4.5.4
       '@types/node': 17.0.7
       bumpp: 7.1.1
       eslint: 8.6.0
@@ -97,8 +97,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@jtsang/eslint-config-basic/0.17.0_eslint@8.6.0:
-    resolution: {integrity: sha512-mNiyPpuTvn3aHS1Bg+14evm0CVkjO2Qpr61D8EnudSdOU5pUCNTc9TN8HGeG/kyClo318aanOjZnRHnRpBjooQ==}
+  /@jtsang/eslint-config-basic/0.19.0_eslint@8.6.0:
+    resolution: {integrity: sha512-VL68+Oll++BvADzyCLrkST3Caw3LkO/VUtJN+4hrivEq+xCsrfg87V4Rshjfz8Y6uToh7eANsT9eWluDzsTCmA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -118,12 +118,12 @@ packages:
       - supports-color
     dev: true
 
-  /@jtsang/eslint-config-react/0.17.0_eslint@8.6.0+typescript@4.5.4:
-    resolution: {integrity: sha512-P2FJGGz+OwCyacxbGBGtFg4Vhi6GRqPhXzZZfKl67wRvl4ArWAwTrKYe8xf20V4OHm+1tHxhBi+wsVLlNCyH5Q==}
+  /@jtsang/eslint-config-react/0.19.0_eslint@8.6.0+typescript@4.5.4:
+    resolution: {integrity: sha512-cpgQoaVBgZJ9UhlMuTj48ZwKVVPJBvYCQz0hjSSe6z7KlibmjENsWgZdtiwRH+FUggggT7hwes+6fm0Cx3nMcA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@jtsang/eslint-config-ts': 0.17.0_eslint@8.6.0+typescript@4.5.4
+      '@jtsang/eslint-config-ts': 0.19.0_eslint@8.6.0+typescript@4.5.4
       eslint: 8.6.0
       eslint-plugin-react: 7.28.0_eslint@8.6.0
     transitivePeerDependencies:
@@ -131,13 +131,13 @@ packages:
       - typescript
     dev: true
 
-  /@jtsang/eslint-config-ts/0.17.0_eslint@8.6.0+typescript@4.5.4:
-    resolution: {integrity: sha512-4FzrEDW1tFzawwJr7kkIWoOIm7a95oOhIKUKQ+7Y1yAmMtm2DCr25ysqQDg1dfz2+W0p08onYlYr6gPKOEQXTA==}
+  /@jtsang/eslint-config-ts/0.19.0_eslint@8.6.0+typescript@4.5.4:
+    resolution: {integrity: sha512-MZvSzOZM8DBuynS4FPt9k7p4Fu3TGXIhjYQzvrZtwyqjBDJhfQoBDtXgDr5P6Z8wn8ZrrgeRvZ2k9BWFwq/EPw==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@jtsang/eslint-config-basic': 0.17.0_eslint@8.6.0
+      '@jtsang/eslint-config-basic': 0.19.0_eslint@8.6.0
       '@typescript-eslint/eslint-plugin': 5.10.1_edad66250ba4f31f37511668665c0413
       '@typescript-eslint/parser': 5.10.1_eslint@8.6.0+typescript@4.5.4
       eslint: 8.6.0
@@ -146,12 +146,12 @@ packages:
       - supports-color
     dev: true
 
-  /@jtsang/eslint-config-vue/0.17.0_eslint@8.6.0+typescript@4.5.4:
-    resolution: {integrity: sha512-6MV18mbSdOvSfFtJAvn4WTIuoLt9XlJP61wqgAkHHPwFLpHGF97lZ0blbJRhmy6mDSSHmwO88vRo/2/1AaxQEA==}
+  /@jtsang/eslint-config-vue/0.19.0_eslint@8.6.0+typescript@4.5.4:
+    resolution: {integrity: sha512-U7zLRStJSAXx0pm3wcq4KyX96JCWDEpVMEcp65MnHqkqgUC/fuE6QbYWc2sCfA49GQxk/m0MIf72wIx1oh59bQ==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@jtsang/eslint-config-ts': 0.17.0_eslint@8.6.0+typescript@4.5.4
+      '@jtsang/eslint-config-ts': 0.19.0_eslint@8.6.0+typescript@4.5.4
       eslint: 8.6.0
       eslint-plugin-vue: 8.4.0_eslint@8.6.0
     transitivePeerDependencies:
@@ -159,13 +159,13 @@ packages:
       - typescript
     dev: true
 
-  /@jtsang/eslint-config/0.17.0_eslint@8.6.0+typescript@4.5.4:
-    resolution: {integrity: sha512-RHFDnkPt+hclxMItAnGuc1J1KvzexShqz714AovLjf8XUkB5W2boW9cKEtuPqnzXSKlAYwCrPbQgiizFLLkGCg==}
+  /@jtsang/eslint-config/0.19.0_eslint@8.6.0+typescript@4.5.4:
+    resolution: {integrity: sha512-Gr7HKWe+JB5+g99QD37RKbYrtM2WhvElveWuebU4CPfUobxbxL1ofvNClCBzIdCMgbLIKvV7oBI2P3Hfors+Uw==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@jtsang/eslint-config-react': 0.17.0_eslint@8.6.0+typescript@4.5.4
-      '@jtsang/eslint-config-vue': 0.17.0_eslint@8.6.0+typescript@4.5.4
+      '@jtsang/eslint-config-react': 0.19.0_eslint@8.6.0+typescript@4.5.4
+      '@jtsang/eslint-config-vue': 0.19.0_eslint@8.6.0+typescript@4.5.4
       '@typescript-eslint/eslint-plugin': 5.10.1_edad66250ba4f31f37511668665c0413
       '@typescript-eslint/parser': 5.10.1_eslint@8.6.0+typescript@4.5.4
       eslint: 8.6.0
